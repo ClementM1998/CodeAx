@@ -17,9 +17,6 @@ Berikut adalah contoh struktur kod dalam CodeAx:
 
 `helloWorld.ax`:
 
-```plaintext
-// helloWorld.ax
-
 ```java
 main helloWorld() {
     System.println("Hello, World!")
