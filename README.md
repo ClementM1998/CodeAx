@@ -18,6 +18,7 @@ Berikut adalah contoh struktur kod dalam CodeAx:
 `helloWorld.ax`:
 
 ```java
+
 main helloWorld() {
     System.println("Hello, World!")
 }
@@ -33,3 +34,4 @@ class Person {
         return Person.id
     }
 }
+
