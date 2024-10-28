@@ -1,33 +1,50 @@
 # CodeAx
 
-CodeAx adalah bahasa pengaturcaraan objektif berorientasikan fungsi yang direka untuk menjadi ringkas, mudah, dan efisien. Ia menggabungkan ciri-ciri berorientasikan objek dan fungsional, dengan struktur dan sintaks yang disesuaikan bagi memudahkan pengurusan kelas serta pengendalian fail.
+CodeAx adalah bahasa pengaturcaraan yang menyokong pemrograman berorientasikan objek (OOP) dan fungsi. Ia direka untuk memudahkan pengaturcaraan dengan sintaks yang ringkas dan intuitif.
 
 ## Ciri-ciri Utama
 
-- **Pengurusan Kelas**: CodeAx menggunakan pendekatan satu kelas per fail, di mana nama fail mesti sepadan dengan nama kelas.
-- **Fungsi Utama (`main`)**: Kata kunci `main` digunakan sebagai titik mula dalam fail, tanpa `;` sebagai penamat baris.
-- **Pendekatan OOP**: Menyokong pendekatan OOP, tetapi membolehkan fungsi didefinisikan di luar kelas.
-- **Komen**: Menggunakan `~` untuk komen satu baris dan `~* ... *~` untuk komen berbilang baris.
-- **Pengimportan Fail**: `import <lib>` untuk perpustakaan CodeAx dan `import "lib"` untuk perpustakaan tersuai.
-- **Jenis Data Asas**: Menyediakan jenis data seperti `int`, `float`, `long`, `double`, `char`, dan `boolean`.
-- **Warisan (Inheritance)**: Menggunakan simbol `:` untuk warisan kelas dan antaramuka.
-- **Kelas Statik**: Menyokong kelas statik, di mana semua fungsi dalam kelas tersebut menjadi `static`.
+- **Pemrograman Berorientasikan Objek**: Menyokong konsep OOP seperti kelas dan objek.
+- **Sintaks Ringkas**: Memudahkan pemahaman dan penulisan kod.
+- **Menyokong Pelbagai Jenis Data**: Termasuk `int`, `float`, `long`, `double`, `char`, dan `boolean`.
+- **Struktur Kawalan**: Menyokong `if`, `else`, `for`, `while`, dan `do while`.
+- **Fungsi Dalam Kelas dan Main**: Semua fungsi mesti diletakkan dalam `main` atau dalam kelas.
+- **Penggunaan Boolean**: Menyokong penggunaan boolean untuk logik keputusan.
 
-## Kata kunci
+## Katakunci
 
+Berikut adalah senarai katakunci yang disokong dalam CodeAx:
 
+- `class`
+- `main`
+- `import`
+- `public`
+- `private`
+- `static`
+- `int`
+- `float`
+- `long`
+- `double`
+- `char`
+- `boolean`
+- `for`
+- `do`
+- `while`
+- `if`
+- `else`
+- `? :` (operator ternari)
 
-## Contoh Kod
+## Contoh Penggunaan
 
-Berikut adalah contoh kod dalam fail `helloWorld.ax`:
+### 1. Contoh Kelas
 
-**Nama Fail**: `helloWorld.ax`
-```java
-main helloWorld() {
-    System.println("Hello, World!")
+```codeax
+main test() {
+    Person p = new Person
+    p.set(1)
+    System.println(p.get())
 }
 
-~Definisi kelas Person
 class Person {
     int id
 
@@ -39,7 +56,6 @@ class Person {
         return Person.id
     }
 }
-```
 
 Berikut adalah contoh kod kelas Animal.ax, Cat.ax dan Dog.ax
 
