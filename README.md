@@ -19,8 +19,7 @@ Berikut adalah contoh kod dalam fail `helloWorld.ax`:
 
 **Nama Fail**: `helloWorld.ax`
 
-```html
-<pre><code class="language-java">
+```c++
 main helloWorld() {
     System.println("Hello, World!")
 }
@@ -37,4 +36,3 @@ class Person {
         return Person.id
     }
 }
-</code></pre>
