@@ -1,4 +1,5 @@
 # CodeAx
+# CodeAx
 
 CodeAx adalah bahasa pengaturcaraan yang menyokong pemrograman berorientasikan objek (OOP) dan fungsi. Ia direka untuk memudahkan pengaturcaraan dengan sintaks yang ringkas dan intuitif.
 
@@ -8,8 +9,7 @@ CodeAx adalah bahasa pengaturcaraan yang menyokong pemrograman berorientasikan o
 - **Sintaks Ringkas**: Memudahkan pemahaman dan penulisan kod.
 - **Menyokong Pelbagai Jenis Data**: Termasuk `int`, `float`, `long`, `double`, `char`, dan `boolean`.
 - **Struktur Kawalan**: Menyokong `if`, `else`, `for`, `while`, dan `do while`.
-- **Fungsi Dalam Kelas dan Main**: Semua fungsi mesti diletakkan dalam `main` atau dalam kelas.
-- **Penggunaan Boolean**: Menyokong penggunaan boolean untuk logik keputusan.
+- **Fungsi Dalam Kelas dan Luar Main**: Semua fungsi mesti diletakkan di luar blok `main` atau dalam kelas.
 
 ## Katakunci
 
@@ -32,30 +32,57 @@ Berikut adalah senarai katakunci yang disokong dalam CodeAx:
 - `while`
 - `if`
 - `else`
-- `? :` (operator ternari)
 
-## Contoh Penggunaan
+## Operasi dan Simbol
 
-### 1. Contoh Kelas
+Berikut adalah senarai operasi dan simbol yang disokong dalam CodeAx:
+
+### 1. Operasi Aritmetik
+
+- `+`  : Penjumlahan
+- `-`  : Pengurangan
+- `*`  : Pendaraban
+- `/`  : Pembahagian
+- `%`  : Modulus (sisa)
+
+### 2. Operasi Perbandingan
+
+- `==` : Sama dengan
+- `!=` : Tidak sama dengan
+- `>`  : Lebih besar daripada
+- `<`  : Kurang daripada
+- `>=` : Lebih besar atau sama dengan
+- `<=` : Kurang atau sama dengan
+
+### 3. Operasi Logik
+
+- `&&` : Dan (AND)
+- `||` : Atau (OR)
+- `!`  : Tidak (NOT)
+
+### 4. Simbol Penugasan
+
+- `=`  : Penugasan asas
+- `+=` : Tambah dan kemudian penugasan
+- `-=` : Tolak dan kemudian penugasan
+- `*=` : Darab dan kemudian penugasan
+- `/=` : Bahagi dan kemudian penugasan
+- `%=` : Modulus dan kemudian penugasan
+
+### 5. Operator Ternari
+
+- `? :` : Operator ternari digunakan untuk membuat keputusan ringkas. Sintaks adalah seperti berikut:
+  
+```codeax
+condition ? valueIfTrue : valueIfFalse
+
+Berikut adalah contoh kod kelas Test.ax
 
 ```codeax
-main test() {
-    Person p = new Person
-    p.set(1)
-    System.println(p.get())
+main Test() {
+    System.println("Hello World")
 }
-
-class Person {
-    int id
-
-    public void set(int id) {
-        Person.id = id
-    }
-
-    public int get() {
-        return Person.id
-    }
-}
+```
 
 Berikut adalah contoh kod kelas Animal.ax, Cat.ax dan Dog.ax
 
