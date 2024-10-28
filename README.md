@@ -23,7 +23,7 @@ main helloWorld() {
     System.println("Hello, World!")
 }
 
-~* Definisi kelas Person *~
+~Definisi kelas Person
 class Person {
     int id
 
