@@ -13,6 +13,10 @@ CodeAx adalah bahasa pengaturcaraan objektif berorientasikan fungsi yang direka 
 - **Warisan (Inheritance)**: Menggunakan simbol `:` untuk warisan kelas dan antaramuka.
 - **Kelas Statik**: Menyokong kelas statik, di mana semua fungsi dalam kelas tersebut menjadi `static`.
 
+## Kata kunci
+
+
+
 ## Contoh Kod
 
 Berikut adalah contoh kod dalam fail `helloWorld.ax`:
