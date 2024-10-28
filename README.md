@@ -1,28 +1,30 @@
 # CodeAx
 
-CodeAx adalah sebuah bahasa pengaturcaraan objektif berorientasikan fungsi yang direka untuk menjadi ringkas, mudah, dan efisien. Ia mempunyai struktur unik dengan ciri-ciri yang disesuaikan khusus untuk memudahkan pengurusan kelas dan pengendalian fail. CodeAx direka supaya boleh diimplementasi dengan mudah menggunakan Java.
+CodeAx adalah bahasa pengaturcaraan objektif berorientasikan fungsi yang direka untuk menjadi ringkas, mudah, dan efisien. Ia menggabungkan ciri-ciri berorientasikan objek dan fungsional, dengan struktur dan sintaks yang disesuaikan bagi memudahkan pengurusan kelas serta pengendalian fail.
 
 ## Ciri-ciri Utama
-- **Pengurusan kelas yang mudah**: CodeAx menggunakan pendekatan satu kelas bagi setiap fail, dan nama fail mesti sepadan dengan nama kelas.
-- **Fungsi utama (`main`)**: Fungsi utama bagi setiap fail menggunakan kata kunci `main`, tanpa penggunaan `;` sebagai penamat baris.
-- **Ciri OOP dan fungsi**: Menyokong pendekatan OOP, tetapi membolehkan kaedah didefinisikan di luar kelas.
-- **Sokongan komen**: Menggunakan `~` untuk komen satu baris.
-- **Pengimportan fail**: Menyokong `import <lib>` untuk perpustakaan CodeAx dan `import "lib"` untuk perpustakaan tersuai.
-- **Data types**: Menyediakan jenis data asas seperti `int`, `float`, `long`, `double`, `char`, dan `boolean`.
-- **Inheritance**: Menggunakan simbol `:` untuk warisan kelas dan antaramuka.
+
+- **Pengurusan Kelas**: CodeAx menggunakan pendekatan satu kelas per fail, di mana nama fail mesti sepadan dengan nama kelas.
+- **Fungsi Utama (`main`)**: Kata kunci `main` digunakan sebagai titik mula dalam fail, tanpa `;` sebagai penamat baris.
+- **Pendekatan OOP**: Menyokong pendekatan OOP, tetapi membolehkan fungsi didefinisikan di luar kelas.
+- **Komen**: Menggunakan `~` untuk komen satu baris dan `~* ... *~` untuk komen berbilang baris.
+- **Pengimportan Fail**: `import <lib>` untuk perpustakaan CodeAx dan `import "lib"` untuk perpustakaan tersuai.
+- **Jenis Data Asas**: Menyediakan jenis data seperti `int`, `float`, `long`, `double`, `char`, dan `boolean`.
+- **Warisan (Inheritance)**: Menggunakan simbol `:` untuk warisan kelas dan antaramuka.
+- **Kelas Statik**: Menyokong kelas statik, di mana semua fungsi dalam kelas tersebut menjadi `static`.
 
 ## Contoh Kod
 
-Berikut adalah contoh struktur kod dalam CodeAx:
+Berikut adalah contoh kod dalam fail `helloWorld.ax`:
 
-**Nama fail**: `helloWorld.ax`
+**Nama Fail**: `helloWorld.ax`
 
 ```java
-
 main helloWorld() {
     System.println("Hello, World!")
 }
 
+~* Definisi kelas Person *~
 class Person {
     int id
 
@@ -34,4 +36,3 @@ class Person {
         return Person.id
     }
 }
-
