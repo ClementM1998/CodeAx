@@ -15,7 +15,7 @@ CodeAx adalah sebuah bahasa pengaturcaraan objektif berorientasikan fungsi yang 
 
 Berikut adalah contoh struktur kod dalam CodeAx:
 
-`helloWorld.ax`
+**Nama fail**: `helloWorld.ax`
 
 ```java
 
