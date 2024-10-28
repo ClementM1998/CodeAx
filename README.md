@@ -1,5 +1,4 @@
 # CodeAx
-# CodeAx
 
 CodeAx adalah bahasa pengaturcaraan yang menyokong pemrograman berorientasikan objek (OOP) dan fungsi. Ia direka untuk memudahkan pengaturcaraan dengan sintaks yang ringkas dan intuitif.
 
@@ -84,6 +83,7 @@ main Test() {
 }
 ```
 
+## Contoh Kod CodeAx
 Berikut adalah contoh kod kelas Animal.ax, Cat.ax dan Dog.ax
 
 **Nama Fail**: `Animal.ax`
