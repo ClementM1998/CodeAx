@@ -10,9 +10,9 @@ CodeAx adalah bahasa pengaturcaraan yang menyokong pemrograman berorientasikan o
 - **Struktur Kawalan**: Menyokong `if`, `else`, `for`, `while`, dan `do while`.
 - **Fungsi Dalam Kelas dan Luar Main**: Semua fungsi mesti diletakkan di luar blok `main` atau dalam kelas.
 
-## Katakunci
+## Senarai Kata Kunci
 
-Berikut adalah senarai katakunci yang disokong dalam CodeAx:
+Berikut ialah senarai kata kunci yang disokong oleh CodeAx:
 
 - `class`
 - `main`
@@ -31,6 +31,8 @@ Berikut adalah senarai katakunci yang disokong dalam CodeAx:
 - `while`
 - `if`
 - `else`
+- `interface`
+- `enum`
 
 ## Operasi dan Simbol
 
