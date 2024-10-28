@@ -18,7 +18,6 @@ CodeAx adalah bahasa pengaturcaraan objektif berorientasikan fungsi yang direka 
 Berikut adalah contoh kod dalam fail `helloWorld.ax`:
 
 **Nama Fail**: `helloWorld.ax`
-
 ```java
 main helloWorld() {
     System.println("Hello, World!")
@@ -36,8 +35,39 @@ class Person {
         return Person.id
     }
 }
+```
 
-Berikut adalah contoh kod kelas Animal, Cat dan Dog
+Berikut adalah contoh kod kelas Animal.ax, Cat.ax dan Dog.ax
 
 **Nama Fail**: `Animal.ax`
+```java
+class Animal {
+    public String name
+}
+```
 
+**Nama Fail**: `Cat.ax`
+```java
+public class Cat : Animal {
+
+    public void name(String name) {
+        Cat.name = name
+    }
+
+    public String name() {
+        return Cat.name
+    }
+
+}
+```
+
+**Nama Fail**: `Dog.ax`
+```java
+public class Dog : Animal {
+
+    public void name(String name) : Dog.name = name
+
+    public String name() : return Dog.name
+
+}
+```
