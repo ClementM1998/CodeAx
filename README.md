@@ -1,14 +1,15 @@
-# CodeAx
+o# CodeAx
 
 CodeAx adalah bahasa pengaturcaraan yang menyokong pemrograman berorientasikan objek (OOP) dan fungsi. Ia direka untuk memudahkan pengaturcaraan dengan sintaks yang ringkas dan mudah dipelajari.
 
 ## Ciri-ciri Utama
 
-- **Pemrograman Berorientasikan Objek**: Menyokong konsep OOP seperti kelas dan objek.
-- **Sintaks Ringkas**: Memudahkan pemahaman dan penulisan kod.
-- **Menyokong Pelbagai Jenis Data**: Termasuk `int`, `float`, `long`, `double`, `char`, dan `boolean`.
-- **Struktur Kawalan**: Menyokong `if`, `else`, `for`, `while`, dan `do while`.
-- **Fungsi Dalam Kelas dan Luar Main**: Semua fungsi mesti diletakkan di luar blok `main` atau dalam kelas.
+- **Pemrograman Berorientasikan Objek (OOP)**: Menyokong konsep asas OOP termasuk kelas (`class`), objek, `interface`, dan `enum`.
+- **Sintaks Ringkas**: Sintaks CodeAx memudahkan pemahaman kod dengan struktur yang teratur dan penggunaan yang konsisten.
+- **Jenis Data Primitif**: Menyokong jenis data seperti `int`, `float`, `long`, `double`, `char`, dan `boolean` untuk kemudahan pengendalian data asas.
+- **Struktur Kawalan Fleksibel**: Tersedia struktur kawalan `if`, `else`, `for`, `while`, dan `do while` untuk mengawal aliran program dengan mudah.
+- **Fungsi dalam Kelas dan Luar Blok `main`**: CodeAx membenarkan definisi fungsi sama ada dalam kelas atau di luar blok `main` untuk memastikan kebolehbacaan kod.
+- **Pustaka Standard**: Tersedia pelbagai pustaka asas untuk pengendalian sistem, matematik, string, tarikh, fail, koleksi data, rangkaian (akan datang), dan grafik (akan datang).
 
 ## Senarai Kata Kunci
 
