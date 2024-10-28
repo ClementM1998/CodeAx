@@ -71,19 +71,20 @@ Berikut adalah senarai operasi dan simbol yang disokong dalam CodeAx:
 ### 5. Operator Ternari
 
 - `? :` : Operator ternari digunakan untuk membuat keputusan ringkas. Sintaks adalah seperti berikut:
-  
-```codeax
+```java
 condition ? valueIfTrue : valueIfFalse
+```
+
+## Contoh Kod CodeAx
 
 Berikut adalah contoh kod kelas Test.ax
 
-```codeax
+```java
 main Test() {
     System.println("Hello World")
 }
 ```
 
-## Contoh Kod CodeAx
 Berikut adalah contoh kod kelas Animal.ax, Cat.ax dan Dog.ax
 
 **Nama Fail**: `Animal.ax`
