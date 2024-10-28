@@ -1,4 +1,4 @@
-o# CodeAx
+# CodeAx
 
 CodeAx adalah bahasa pengaturcaraan yang menyokong pemrograman berorientasikan objek (OOP) dan fungsi. Ia direka untuk memudahkan pengaturcaraan dengan sintaks yang ringkas dan mudah dipelajari.
 
