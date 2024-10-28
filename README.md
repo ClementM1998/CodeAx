@@ -19,7 +19,7 @@ Berikut adalah contoh kod dalam fail `helloWorld.ax`:
 
 **Nama Fail**: `helloWorld.ax`
 
-```c++
+```java
 main helloWorld() {
     System.println("Hello, World!")
 }
@@ -36,3 +36,8 @@ class Person {
         return Person.id
     }
 }
+
+Berikut adalah contoh kod kelas Animal, Cat dan Dog
+
+**Nama Fail**: `Animal.ax`
+
