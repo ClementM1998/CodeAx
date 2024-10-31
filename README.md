@@ -34,6 +34,9 @@ Berikut ialah senarai kata kunci yang disokong oleh CodeAx:
 - `else`
 - `interface`
 - `enum`
+- `true`
+- `false`
+- `void`
 
 ## Operasi dan Simbol
 
