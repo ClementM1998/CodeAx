@@ -1,15 +1,17 @@
 # CodeAx
 
-CodeAx adalah bahasa pengaturcaraan yang menyokong pemrograman berorientasikan objek (OOP) dan fungsi. Ia direka untuk memudahkan pengaturcaraan dengan sintaks yang ringkas dan mudah dipelajari.
+CodeAx adalah bahasa pengaturcaraan yang direka khusus untuk pengaturcaraan berorientasikan objek (OOP) dan menawarkan sintaks yang ringkas dan intuitif, mirip dengan Java tetapi dengan perubahan tertentu. CodeAx tidak menyokong pemrograman fungsional, sebaliknya menumpukan pada struktur OOP dan kemudahan penggunaan untuk pengaturcaraan berasaskan kelas.
 
-## Ciri-ciri Utama
+## Ciri-Ciri Utama
 
-- **Pemrograman Berorientasikan Objek (OOP)**: Menyokong konsep asas OOP termasuk kelas (`class`), objek, `interface`, dan `enum`.
-- **Sintaks Ringkas**: Sintaks CodeAx memudahkan pemahaman kod dengan struktur yang teratur dan penggunaan yang konsisten.
-- **Jenis Data Primitif**: Menyokong jenis data seperti `int`, `float`, `long`, `double`, `char`, dan `boolean` untuk kemudahan pengendalian data asas.
-- **Struktur Kawalan Fleksibel**: Tersedia struktur kawalan `if`, `else`, `for`, `while`, dan `do while` untuk mengawal aliran program dengan mudah.
-- **Fungsi dalam Kelas dan Luar Blok `main`**: CodeAx membenarkan definisi fungsi sama ada dalam kelas atau di luar blok `main` untuk memastikan kebolehbacaan kod.
-- **Pustaka Standard**: Tersedia pelbagai pustaka asas untuk pengendalian sistem, matematik, string, tarikh, fail, koleksi data, rangkaian (akan datang), dan grafik (akan datang).
+- **Paradigma**: Berorientasi Objek (OOP)
+- **Sintaks**: Tidak menggunakan `;` sebagai penamat baris
+- **Fungsi Utama**: Menggunakan kata kunci `main` sebagai titik masuk utama
+- **Jenis Data**: Menyokong jenis data `int`, `float`, `long`, `double`, `char`, dan `boolean`
+- **Inheritance**: Menggunakan `:` sebagai simbol pewarisan
+- **Modulariti**: Setiap fail hanya boleh mempunyai satu kelas, satu interface, atau satu enum
+- **Perulangan dan Kondisi**: Menyokong `for`, `while`, `do while`, `if`, `else`, dan operator ternari `? :`
+- **Pengurusan Fail**: Fail utama mesti sepadan dengan nama kelas atau fungsi utama (`main`) di dalamnya
 
 ## Senarai Kata Kunci
 
