@@ -1,6 +1,6 @@
 # CodeAx
 
-CodeAx adalah bahasa pengaturcaraan yang direka khusus untuk pengaturcaraan berorientasikan objek (OOP) dan menawarkan sintaks yang ringkas dan intuitif, mirip dengan Java tetapi dengan perubahan tertentu. CodeAx tidak menyokong pemrograman fungsional, sebaliknya menumpukan pada struktur OOP dan kemudahan penggunaan untuk pengaturcaraan berasaskan kelas.
+CodeAx adalah bahasa pengaturcaraan berorientasikan objek (OOP) yang direka untuk memberi kemudahan dalam menulis kod yang ringkas dan efisien. Berikut adalah beberapa ciri penting:
 
 ## Ciri-Ciri Utama
 
@@ -12,6 +12,10 @@ CodeAx adalah bahasa pengaturcaraan yang direka khusus untuk pengaturcaraan bero
 - **Modulariti**: Setiap fail hanya boleh mempunyai satu kelas, satu interface, atau satu enum
 - **Perulangan dan Kondisi**: Menyokong `for`, `while`, `do while`, `if`, `else`, dan operator ternari `? :`
 - **Pengurusan Fail**: Fail utama mesti sepadan dengan nama kelas atau fungsi utama (`main`) di dalamnya
+
+## Struktur Fail
+- **Satu Class, Interface, atau Enum per Fail**: CodeAx hanya membenarkan satu class, interface, atau enum bagi setiap fail, kecuali untuk fail utama.
+- **Fail Utama**: Dalam fail utama, pengguna boleh memasukkan lebih daripada satu elemen, iaitu class, interface, dan enum, semuanya boleh berada dalam fail ini.
 
 ## Senarai Kata Kunci
 
