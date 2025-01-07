@@ -43,6 +43,7 @@ Berikut ialah senarai kata kunci yang disokong oleh CodeAx:
 - `true`
 - `false`
 - `void`
+- `null`
 
 ## Operasi dan Simbol
 
