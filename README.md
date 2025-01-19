@@ -44,6 +44,8 @@ Berikut ialah senarai kata kunci yang disokong oleh CodeAx:
 - `false`
 - `void`
 - `null`
+- `break`
+- `continue`
 
 ## Operasi dan Simbol
 
