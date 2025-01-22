@@ -22,6 +22,8 @@ CodeAx adalah bahasa pengaturcaraan berorientasikan objek (OOP) yang direka untu
 Berikut ialah senarai kata kunci yang disokong oleh CodeAx:
 
 - `class`
+- `interface`
+- `enum`
 - `main`
 - `import`
 - `public`
@@ -38,8 +40,6 @@ Berikut ialah senarai kata kunci yang disokong oleh CodeAx:
 - `while`
 - `if`
 - `else`
-- `interface`
-- `enum`
 - `true`
 - `false`
 - `void`
