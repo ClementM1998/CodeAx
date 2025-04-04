@@ -1,0 +1,28 @@
+
+public class EnvironmentSystem : Environment {
+
+    public String getOsName() {
+        return ""
+    }
+
+    public String getOsVersion() {
+        return ""
+    }
+
+    public String getUserName() {
+        return ""
+    }
+
+    public String getUserHome() {
+        return ""
+    }
+
+    public String getPathDirectory() {
+        return ""
+    }
+
+    public String getDirectory() {
+        return ""
+    }
+
+}
