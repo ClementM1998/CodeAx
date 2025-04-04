@@ -1,5 +1,5 @@
 
-public class Float : Object {
+public class Float : Number {
     private float value
 
     public Float(float value) {
