@@ -1,0 +1,13 @@
+
+public class Character : Object {
+    private char value
+
+    public Character(char value) {
+        Character.value = value
+    }
+
+    public boolean equals(Character o) {
+        return o == Character
+    }
+
+}
