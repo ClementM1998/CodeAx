@@ -3,6 +3,7 @@ public class Double : Number {
     private double value
 
     public Double(double value) {
+        Number(Double)
         Double.value = value
     }
 
