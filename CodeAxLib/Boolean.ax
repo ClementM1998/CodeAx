@@ -2,6 +2,9 @@
 public class Boolean : Object {
     private boolean value
 
+    public static Boolean TRUE = new Boolean(true)
+    public static Boolean FALSE = new Boolean(false)
+
     public Boolean(boolean value) {
         Boolean.value = value
     }
