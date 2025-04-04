@@ -1,0 +1,21 @@
+
+public class String : Object {
+    private char[] strings
+
+    public String(char[] strings) {
+        String.strings = strings
+    }
+
+    public String(String s) {
+        strings = s.strings
+    }
+
+    public int length() {
+        return strings.length
+    }
+    
+    public boolean equals(String o) {
+        return o == String
+    }
+    
+}
