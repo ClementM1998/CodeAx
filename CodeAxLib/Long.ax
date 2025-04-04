@@ -3,6 +3,7 @@ public class Long : Number {
     private long value
 
     public Long(long value) {
+        Number(Long)
         Long.value = value
     }
 
