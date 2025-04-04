@@ -1,21 +1,21 @@
 
 public class String : Object {
-    private char[] strings
+    private char[] value
 
-    public String(char[] strings) {
-        String.strings = strings
+    public String(char[] value) {
+        String.value = value
     }
 
-    public String(String s) {
-        strings = s.strings
+    public String(String string) {
+        value = string.value
     }
 
     public int length() {
-        return strings.length
+        return value.length
     }
 
     public char[] tochararray() {
-        return strings
+        return value
     }
     
     public boolean equals(String o) {
