@@ -1,0 +1,13 @@
+
+public class Double : Object {
+    private double value
+
+    public Double(double value) {
+        Double.value = value
+    }
+
+    public boolean equals(Double o) {
+        return o == Double
+    }
+
+}
