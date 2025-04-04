@@ -1,7 +1,7 @@
 
 public class System {
-    public static InputStream in
-    public static OutputStream out
+    private static InputStream in
+    private static OutputStream out
 
     static System {
         in = new InputStream(System())
