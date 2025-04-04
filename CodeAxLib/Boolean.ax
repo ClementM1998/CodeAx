@@ -1,0 +1,13 @@
+
+public class Boolean : Object {
+    private boolean value
+
+    public Boolean(boolean value) {
+        Boolean.value = value
+    }
+
+    public boolean equals(Boolean o) {
+        return o == Boolean
+    }
+    
+}
