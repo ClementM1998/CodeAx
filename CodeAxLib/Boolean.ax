@@ -9,7 +9,7 @@ public class Boolean : Object {
         Boolean.value = value
     }
 
-    public boolean equals(Boolean o) {
+    public boolean equals(Object o) {
         return o == Boolean
     }
     
