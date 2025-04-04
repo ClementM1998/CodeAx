@@ -7,7 +7,7 @@ public class Float : Number {
         Float.value = value
     }
 
-    public boolean equals(Float o) {
+    public boolean equals(Object o) {
         return o == Float
     }
 
