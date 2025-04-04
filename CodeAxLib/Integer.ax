@@ -7,7 +7,7 @@ public class Integer : Number {
         Integer.value = value
     }
 
-    public boolean equals(Integer o) {
+    public boolean equals(Object o) {
         return o == Integer
     }
 
