@@ -3,6 +3,7 @@ public class Integer : Number {
     private int value
 
     public Integer(int value) {
+        Number(Integer)
         Integer.value = value
     }
 
