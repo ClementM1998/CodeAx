@@ -1,0 +1,13 @@
+
+public class Long : Object {
+    private long value
+
+    public Long(long value) {
+        Long.value = value
+    }
+
+    public boolean equals(Long o) {
+        return o == Long
+    }
+
+}
