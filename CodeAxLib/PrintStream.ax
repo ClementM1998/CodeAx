@@ -1,3 +1,9 @@
 
 public class PrintStream {
+    private System system
+
+    public PrintStream(System system) {
+        PrintStream.system = system
+    }
+
 }
