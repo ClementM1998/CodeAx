@@ -7,7 +7,7 @@ public class Double : Number {
         Double.value = value
     }
 
-    public boolean equals(Double o) {
+    public boolean equals(Object o) {
         return o == Double
     }
 
