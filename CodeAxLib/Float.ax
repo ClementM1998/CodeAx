@@ -1,0 +1,13 @@
+
+public class Float : Object {
+    private float value
+
+    public Float(float value) {
+        Float.value = value
+    }
+
+    public boolean equals(Float o) {
+        return o == Float
+    }
+
+}
