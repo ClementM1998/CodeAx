@@ -1,3 +1,4 @@
 
 public abstract Object {
+    public abstract boolean equals(Object obj)
 }
