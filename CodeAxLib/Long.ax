@@ -1,5 +1,5 @@
 
-public class Long : Object {
+public class Long : Number {
     private long value
 
     public Long(long value) {
