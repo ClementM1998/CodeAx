@@ -13,9 +13,81 @@ public class System {
     public System() {
     }
 
-    public Environment getEnvironment() {
+    public static Environment getEnvironment() {
         if (env == null) return null
         else return env
+    }
+
+    public static void print(int value) {
+        out.print(value)
+    }
+
+    public static void print(float value) {
+        out.print(value)
+    }
+
+    public static void print(long value) {
+        out.print(value)
+    }
+
+    public static void print(double value) {
+        out.print(value)
+    }
+
+    public static void print(char value) {
+        out.print(value)
+    }
+
+    public static void print(boolean value) {
+        out.print(value)
+    }
+
+    public static void print(String value) {
+        out.print(value)
+    }
+
+    public static void print(Object value) {
+        out.print(value)
+    }
+
+    public static void println(int value) {
+        print(value)
+        out.newline()
+    }
+
+    public static void println(float value) {
+        print(value)
+        out.newline()
+    }
+
+    public static void println(long value) {
+        print(value)
+        out.newline()
+    }
+
+    public static void println(double value) {
+        print(value)
+        out.newline()
+    }
+
+    public static void println(char value) {
+        print(value)
+        out.newline()
+    }
+
+    public static void println(boolean value) {
+        print(value)
+        out.newline()
+    }
+
+    public static void println(String value) {
+        print(value)
+        out.newline()
+    }
+
+    public static void println(Object value) {
+        print(value)
+        out.newline()
     }
 
 }
