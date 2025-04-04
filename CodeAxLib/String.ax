@@ -13,6 +13,10 @@ public class String : Object {
     public int length() {
         return strings.length
     }
+
+    public char[] tochararray() {
+        return strings
+    }
     
     public boolean equals(String o) {
         return o == String
