@@ -1,5 +1,5 @@
 
-public class Integer : Object {
+public class Integer : Number {
     private int value
 
     public Integer(int value) {
