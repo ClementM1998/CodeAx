@@ -6,7 +6,7 @@ public class Character : Object {
         Character.value = value
     }
 
-    public boolean equals(Character o) {
+    public boolean equals(Object o) {
         return o == Character
     }
 
