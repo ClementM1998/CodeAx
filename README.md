@@ -14,7 +14,7 @@ CodeAx adalah bahasa pengaturcaraan berorientasikan objek (OOP) yang direka untu
 - **Pengurusan Fail**: Fail utama mesti sepadan dengan nama kelas atau fungsi utama (`main`) di dalamnya
 
 ## Struktur Fail
-- **Satu Class, Interface, atau Enum per Fail**: CodeAx hanya membenarkan satu class, interface, atau enum bagi setiap fail, kecuali untuk fail utama.
+- **Satu Class, Abstract, Interface, atau Enum per Fail**: CodeAx hanya membenarkan satu class, interface, atau enum bagi setiap fail, kecuali untuk fail utama.
 - **Fail Utama**: Dalam fail utama, pengguna boleh memasukkan lebih daripada satu elemen, iaitu class, interface, dan enum, semuanya boleh berada dalam fail ini.
 
 ## Senarai Kata Kunci
@@ -22,6 +22,7 @@ CodeAx adalah bahasa pengaturcaraan berorientasikan objek (OOP) yang direka untu
 Berikut ialah senarai kata kunci yang disokong oleh CodeAx:
 
 - `class`
+- `abstract`
 - `interface`
 - `enum`
 - `main`
