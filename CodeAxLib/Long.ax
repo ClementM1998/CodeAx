@@ -7,7 +7,7 @@ public class Long : Number {
         Long.value = value
     }
 
-    public boolean equals(Long o) {
+    public boolean equals(Object o) {
         return o == Long
     }
 
