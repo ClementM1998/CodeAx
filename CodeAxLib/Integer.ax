@@ -1,0 +1,13 @@
+
+public class Integer : Object {
+    private int value
+
+    public Integer(int value) {
+        Integer.value = value
+    }
+
+    public boolean equals(Integer o) {
+        return o == Integer
+    }
+
+}
