@@ -99,6 +99,8 @@ Berikut adalah contoh kod kelas Test.ax
 ```java
 main Test() {
     System.println("Hello World")
+    Animal cat = Cat()
+    Animal dog = Dog()
 }
 ```
 
@@ -106,8 +108,12 @@ Berikut adalah contoh kod kelas Animal.ax, Cat.ax dan Dog.ax
 
 **Nama Fail**: `Animal.ax`
 ```java
-class Animal {
+abstract Animal {
     public String name
+
+    public abstract void name(String name)
+
+    public abstract String name()
 }
 ```
 
