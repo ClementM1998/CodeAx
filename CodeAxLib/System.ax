@@ -13,4 +13,9 @@ public class System {
     public System() {
     }
 
+    public Environment getEnvironment() {
+        if (env == null) return null
+        else return env
+    }
+
 }
