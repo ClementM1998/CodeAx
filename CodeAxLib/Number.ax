@@ -6,7 +6,7 @@ public class Number : Object {
         Number.value = value
     }
 
-    public boolean equals(Number o) {
+    public boolean equals(Object o) {
         return o == Number
     }
 
