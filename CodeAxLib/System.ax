@@ -2,16 +2,15 @@
 public class System {
     private static InputStream in
     private static OutputStream out
+    private static Environment env
 
     static System {
         in = new InputStream(System())
         out = new OutputStream(System())
+        env = EnvironmentSystem()
     }
 
     public System() {
-    }
-
-    public static void print() {
     }
 
 }
