@@ -1,0 +1,15 @@
+
+public abstract Environment {
+    public abstract String getOsName()
+
+    public abstract String getOsVersion()
+
+    public abstract String getUserName()
+
+    public abstract String getUserHome()
+
+    public abstract String getPathDirectory()
+
+    public abstract String getDirectory()
+
+}
