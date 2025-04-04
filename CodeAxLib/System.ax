@@ -1,4 +1,12 @@
 
 public class System {
-    
+    public static InputStream in
+    public static OutputStream out
+
+    static System {
+        in = new InputStream()
+        out = new OutputStream()
+    }
+
+    public static 
 }
