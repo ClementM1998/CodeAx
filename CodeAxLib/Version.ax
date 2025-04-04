@@ -1,0 +1,5 @@
+
+public class Version {
+    public static String name = "CodeAx"
+    public static String version = "v1.01"
+}
