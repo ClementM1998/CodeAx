@@ -3,6 +3,7 @@ public class Float : Number {
     private float value
 
     public Float(float value) {
+        Number(Float)
         Float.value = value
     }
 
