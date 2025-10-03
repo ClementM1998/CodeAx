@@ -20,7 +20,7 @@ CodeAx adalah bahasa pengaturcaraan berorientasikan objek (OOP) yang direka untu
 ## Senarai Kata Kunci
 
 Berikut ialah senarai kata kunci yang disokong oleh CodeAx:
-
+```java
 - `class`
 - `abstract`
 - `interface`
@@ -48,6 +48,7 @@ Berikut ialah senarai kata kunci yang disokong oleh CodeAx:
 - `null`
 - `break`
 - `continue`
+```
 
 ## Operasi dan Simbol
 
